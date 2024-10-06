@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px;
+background: rgb(235, 212, 239);
+}
+.w1{
+    width: 240px;
+    height: 240px;
+border: 1px solid #000000;
+border-radius: 8px;
+background-color: rgb(153, 93, 181);
+display: flex;
+padding: 8px;
+}
+.w{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+gap: 70px;
+justify-content: center;
+}
+.w2{
+    width: 50px;
+    height: 50px;
+    box-sizing: border-box;
+border: 1px solid rgb(0, 0, 0);
+border-radius: 8px;
+background-color: #f7941f;
+}
+.w1:nth-child(1){
+    gap: 8px;
+}
+.w1:nth-child(2){
+    gap: 8px;
+    flex-direction: column;
+}
+.w1:nth-child(3){
+flex-wrap: wrap;
+gap: 4px;
+display: flex;
+padding-bottom: 120px;
+}
+.w1:nth-child(4){
+    gap: 35px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.w1:nth-child(5){
+    gap: 8px;
+}
+.w1:nth-child(6){
+    gap: 8px;
+padding-left: 66px;
+}
+.w1:nth-child(7){
+    gap: 8px;
+    padding-left: 36px; 
+}
+.w1:nth-child(8){
+    gap: 35px;
+    flex-wrap: wrap;
+    display: flex
+}
+    .w1:nth-child(9){
+        gap: 8px;
+    }
+.w1:nth-child(10){
+    gap: 8px;
+    padding-top: 180px;
+}
+.w1:nth-child(11){
+    gap: 8px;
+    padding-top: 95px;
+}
+.w1:nth-child(12){
+  padding-left: 20px;
+    gap: 25px;
+    flex-wrap: wrap;
+    display: flex
+}
